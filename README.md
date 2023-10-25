@@ -107,6 +107,7 @@ genval <path/to/input-json> <path/to/Dockerfile>
 Replace `<path/to/input-json>` with the path to your input JSON file and `<path/to/Dockerfile>` with the desired path for the generated Dockerfile.
 
 ## Application Flow Diagram: 
+
 ```mermaid
 flowchart
 	2{"Input validation"} -.->|"Yes"| 3(["Generate \nDockerfile"])
